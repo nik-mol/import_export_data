@@ -27,6 +27,8 @@ click-plugins==1.1.1
     # via celery
 click-repl==0.3.0
     # via celery
+connectorx==0.4.3
+    # via -r requirements/requirements.in
 django==5.2.3
     # via
     #   django-filter
@@ -51,8 +53,6 @@ drf-yasg==1.21.10
     # via -r requirements/requirements.in
 et-xmlfile==2.0.0
     # via openpyxl
-flake8==7.1.1
-    # via -r requirements/requirements.in
 inflection==0.5.1
     # via
     #   drf-spectacular
@@ -65,8 +65,6 @@ jsonschema-specifications==2025.4.1
     # via jsonschema
 kombu==5.5.4
     # via celery
-mccabe==0.7.0
-    # via flake8
 mypy-extensions==1.1.0
     # via black
 numpy==1.26.0
@@ -92,10 +90,8 @@ prompt-toolkit==3.0.51
     # via click-repl
 psycopg2==2.9.10
     # via -r requirements/requirements.in
-pycodestyle==2.12.1
-    # via flake8
-pyflakes==3.2.0
-    # via flake8
+pyarrow==20.0.0
+    # via -r requirements/requirements.in
 python-dateutil==2.9.0.post0
     # via
     #   celery

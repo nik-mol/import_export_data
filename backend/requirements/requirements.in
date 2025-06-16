@@ -10,5 +10,8 @@ pandas==2.1.1
 numpy==1.26.0
 openpyxl==3.0.10
 drf-yasg==1.21.10
+connectorx
+pyarrow
 black==23.9.1
 isort==5.12.0
+

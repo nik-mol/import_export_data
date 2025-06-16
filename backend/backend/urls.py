@@ -38,6 +38,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/gas_service/", include("gas_service.urls", namespace="gas_service")),
+    path("api/wells/", include("wells.urls", namespace="wells")),
     path(
         "doc/",
         schema_view.with_ui("swagger", cache_timeout=0),
