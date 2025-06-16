@@ -1,0 +1,11 @@
+   version: '3.8'  # This line can be removed if you see warnings
+
+   services:
+      redis:
+       image: redis:alpine
+       env_file:
+         - ./.env
+       ports:
+        - '${REDIS_OUT_PORT}:${REDIS_IN_PORT}'
+       restart: always
+

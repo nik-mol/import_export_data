@@ -1,0 +1,14 @@
+djangorestframework==3.16.0
+psycopg2==2.9.10
+celery==5.3.4
+redis==5.0.1
+drf-spectacular[sidecar]==0.26.5
+django-environ==0.12.0
+django-filter==25.1
+polars-lts-cpu==1.29.0
+pandas==2.1.1
+numpy==1.26.0
+openpyxl==3.0.10
+drf-yasg==1.21.10
+black==23.9.1
+isort==5.12.0
